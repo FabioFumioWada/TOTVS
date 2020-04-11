@@ -1,0 +1,13 @@
+RM/Oracle - Import
+Modelo de arquivo de importação Oracle
+
+
+
+USERID=RM/RM@CORPORERM
+FILE=C:\FUMIO\pendentes\CRUZAZUL\RM.DMP
+LOG=C:\CorporeRM\LOGIMP.TXT
+BUFFER=3000000
+FROMUSER=RM
+IGNORE=Y
+DESTROY=Y
+COMMIT=Y

@@ -1,0 +1,21 @@
+SQL Server - Backup em outra estação/servidor
+Backup do SQL Server em outro IP:
+
+BACKUP DATABASE
+TO DISK = '\\\ \\ '
+WITH NOINIT, NOUNLOAD,
+Name = 'BACKUP',
+COMPRESSION, NOSKIP,
+STATS = 10, NOFORMAT
+GO
+
+
+Exemplo:
+
+BACKUP DATABASE
+TO DISK = '\\192.168.1.199\publico\ArquivodeBackup.BKP'
+WITH NOINIT, NOUNLOAD,
+Name = 'BACKUP',
+COMPRESSION, NOSKIP,
+STATS = 10, NOFORMAT
+GO

@@ -1,0 +1,4 @@
+Oracle - Disable Constraint
+ALTER TABLE "RM"."TSERIE"
+    DISABLE VALIDATE 
+    CONSTRAINT "FKTSERIE_GCOL"
