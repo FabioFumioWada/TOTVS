@@ -1,0 +1,15 @@
+Log de Erros de execução do script Log.txt
+AliasName: CorporeRM_Confirp
+Coligada : CONFIRP-SUL CONSULTORIA CONTÁBIL LTDA
+Início   : 18/01/2010 18:55:21
+======================================================
+*** ERRO *** Comando: insert into gusuario values
+('mestre','Usuario mestre',1,'2003-07-02 00:00:00.000',NULL,
+NULL,'NkWjBCzV',8552,1,'Default',NULL,NULL,NULL,NULL,NULL,NULL,NULL)
+<General SQL error.
+Column name or number of supplied values does not match table definition.>
+Script executado com 1 erro(s)!
+
+==============================
+Final: 18/01/2010 18:59:11
+Controle: 4
